@@ -3,6 +3,7 @@
 #include "RTClib.h"
 //hoanghainam
 //vuhunghai
+//LeTanKhang
 LiquidCrystal lcd(2, 3, 4, 5, 6, 7);
 
 RTC_DS1307 rtc;
@@ -124,7 +125,7 @@ void displayMember() {
       break;
     case HAI:
       lcd.setCursor(0, 0);
-      lcd.print("vU HUNG HAI");
+      lcd.print("VU HUNG HAI");
       lcd.setCursor(0, 1);
       lcd.print("74DCTT28");
       break;
