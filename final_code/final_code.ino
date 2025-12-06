@@ -1,6 +1,7 @@
 #include <Wire.h>
 #include <LiquidCrystal.h>
 #include "RTClib.h"
+//hoanghainam
 //vuhunghai
 LiquidCrystal lcd(2, 3, 4, 5, 6, 7);
 
