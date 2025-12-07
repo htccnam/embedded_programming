@@ -5,6 +5,7 @@
 //vuhunghai
 //LeTanKhang
 //hoanghainam1
+//cc
 LiquidCrystal lcd(2, 3, 4, 5, 6, 7);
 
 RTC_DS1307 rtc;
