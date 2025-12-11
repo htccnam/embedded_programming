@@ -8,6 +8,7 @@
 <CODE CHÍNH NẰM TRONG FILE "final_code" DEMO PROTEUS CHÍNH NẰM TRONG "final_demo"
 
 <h1>MÔ TẢ HOẠT ĐỘNG</h1>
+
 *) Nút mode để chuyển giữa các chế độ 
   - chế độ xem giờ : hiển thị thời gian giờ:phút:giây
   - chế độ xem thành viên hiển thị tên và lớp của các thành viên trong nhóm:
