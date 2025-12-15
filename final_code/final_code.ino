@@ -12,8 +12,8 @@ RTC_DS1307 rtc;
 
 //khai báo biến cố định (nút)
 #define OK_BUTTON 8
-#define UP_BUTTON 9
-#define MODE_BUTTON 10
+#define UP_BUTTON 10
+#define MODE_BUTTON 12
 
 //khai báo biến để hiển thị các mode
 enum Mode { CLOCK_MODE,
@@ -41,8 +41,7 @@ void setup() {
 
   if (!rtc.begin()) {
     lcd.print("Loi RTC");
-    while (1)
-      ;
+    while (1);
   }
 
   if (!rtc.isrunning()) {
