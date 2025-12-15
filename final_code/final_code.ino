@@ -8,9 +8,9 @@ RTC_DS1307 rtc;
 
 // --- ĐỊNH NGHĨA CHÂN (PIN) ---
 #define OK_BUTTON 8
-#define UP_BUTTON 9
-#define MODE_BUTTON 10
-#define BUZZER_PIN 11 // Chân còi báo động
+#define UP_BUTTON 10
+#define MODE_BUTTON 12
+#define BUZZER_PIN 13 // Chân còi báo động
 
 // --- CÁC MODE ---
 enum Mode { 
