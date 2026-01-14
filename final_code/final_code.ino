@@ -35,7 +35,7 @@ Mode currentMode = CLOCK_MODE;
 members curentMember = NAM;
 
 // --- BIẾN TRẠNG THÁI NÚT ---
-bool buttonPress = false;     // Nút MODE
+bool mode_buttonPress = false;     // Nút MODE
 bool up_buttonPress = false;  // Nút UP
 bool ok_buttonPress = false;  // Nút OK
 
@@ -80,8 +80,8 @@ void loop() {
 
   // 2. Xử lý nút MODE (Chuyển chế độ)
   int mode_buttonState = digitalRead(MODE_BUTTON);
-  if (mode_buttonState == LOW && !buttonPress) {
-    buttonPress = true;
+  if (mode_buttonState == LOW && ! mode_buttonPress) {
+     mode_buttonPress = true;
 
     if (isRinging) {
       stopRinging();
@@ -90,7 +90,7 @@ void loop() {
     }
     delay(50);
   } else if (mode_buttonState == HIGH) {
-    buttonPress = false;
+     mode_buttonPress = false;
   }
 
   // 3. Hiển thị theo chế độ
