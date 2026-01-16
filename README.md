@@ -201,5 +201,3 @@ Tìm và cài:
 ## 📄 License
 
 This project is licensed under the **MIT License** – free to use for learning and educational purposes.
-
-👉 Nói mình biết mục đích (đồ án / portfolio / GitHub public) là mình chỉnh cho đúng chuẩn luôn nhé 🚀
